@@ -1,0 +1,60 @@
+header {
+    border: 1px solid orchid;
+    background: lightblue;
+}
+
+
+/* Convert the ul in the navigation element into a 
+series of horizontal links with # as the href value, 
+without bullets, and have some space between them horizontally.  --> */
+
+nav {
+    height: 30px;
+}
+
+nav li {
+    float: left;
+    list-style-type: none;
+    margin: 10px 10px 0 10px;
+}
+
+nav li a {
+    text-decoration: none;
+}
+
+.disabled {
+    color: grey;
+}
+
+a.disabled {
+    color: purple;
+}
+
+.active {
+    color: yellow;
+}
+
+#red {
+    color: red;
+}
+
+#blue {
+    color: blue;
+}
+
+#sibRed {
+    background-color: red;
+}
+
+#sibBlue {
+    background-color: blue;
+}
+
+section h4 {
+    border: 1px dashed green;
+    border-radius: 15px;
+}
+
+input {
+    height: 25px;
+}
